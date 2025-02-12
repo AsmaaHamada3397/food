@@ -45,9 +45,9 @@
           </div>
         </div>
       </div>
-      <nav class="flex justify-evenly items-center pt-6">
+      <nav class="flex justify-evenly items-center h-25">
         <div>
-          <a href="" class="flex justify-center items-center" >
+          <a href="" class="flex justify-center items-center mb-3" >
             <img class="inline" src="../assets/images/header/japanese-food.svg" alt="" />
             <span class="text-4xl font-semibold italic ps-2 pt-2">
               Bistro Bliss
@@ -64,7 +64,7 @@
           </ul>
         </div>
         <div>
-          <button class="cursor-pointer px-4 py-2 border-2 border-black rounded-4xl font-semibold
+          <button class="cursor-pointer px-4 py-2 border-2 border-[#2C2F24] rounded-4xl text-[#182226] font-semibold
           hover:text-white hover:bg-[#AD343E] hover:border-[#AD343E]">Book A Table</button>
         </div>
       </nav>
