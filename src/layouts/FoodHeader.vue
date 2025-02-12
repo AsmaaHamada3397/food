@@ -55,12 +55,12 @@
           </a>
         </div>
         <div>
-          <ul class="">
-            <li>Home</li>
-            <li>About</li>
-            <li>Menu</li>
-            <li>Pages</li>
-            <li>Contact</li>
+          <ul>
+            <li> <RouterLink to="/home">Home</RouterLink></li>
+            <li><RouterLink to="/about">About</RouterLink></li>
+            <li><RouterLink to="/menu">Menu</RouterLink></li>
+            <li><RouterLink to="/pages">Pages</RouterLink></li>
+            <li><RouterLink to="/contact">Contact</RouterLink></li>
           </ul>
         </div>
         <div>
@@ -91,17 +91,15 @@ export default {
 
 li{
   list-style-type: none;
-  margin-right: 30px;
+  padding: 6px 12px;
   font-size: 16px;
   display: inline;
 }
 
 li:hover{
 background:#DBDFD0;
-padding: 7px 15px;
 border-radius: 20px;
 cursor: pointer;
 }
-
 
 </style>
