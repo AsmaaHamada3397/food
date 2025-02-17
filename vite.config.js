@@ -17,4 +17,17 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  content: [
+    "./index.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ["'DM Sans'", "sans-serif"],
+        serif: ["'Playfair Display'", "serif"],
+      },
+    },
+  },
+
 })

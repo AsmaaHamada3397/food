@@ -1,7 +1,7 @@
 
  <template>
   <div class="text-center">
-    <h1 class="text-[#2C2F24] text-[42px] my-15">Browse Our Menu</h1>
+    <h1 class="text-[#2C2F24] text-[55px] my-15 font-serif font-medium leading-[60.5px]">Browse Our Menu</h1>
 
     <!-- Grid container -->
     <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 px-10 mx-auto text-center place-items-center">
@@ -13,9 +13,9 @@
           <img class="w-[48px] h-[50px] my-6 absolute left-7 bottom-0" :src="card.image"/>
         </div>
 
-        <h1 class="text-[#2C2F24] font-bold py-4 text-[24px]">{{ card.title }}</h1>
-        <p class="px-2 text-[#414536] text-md">{{ card.description }}</p>
-        <button class="text-[#AD343E] text-md font-medium pt-7 cursor-pointer">{{ card.buttonText }}</button>
+        <h1 class="text-[#2C2F24] font-bold py-4 text-[24px] leading-[30px] tracking-[-3%]">{{ card.title }}</h1>
+        <p class="px-2 text-[#414536] text-[16px] leading-[24px] font-normal">{{ card.description }}</p>
+        <button class="text-[#AD343E] text-[16px] font-bold pt-8 cursor-pointer leading-[24px]">{{ card.buttonText }}</button>
       </div>
 
     </div>

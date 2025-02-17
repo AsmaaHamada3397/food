@@ -1,11 +1,11 @@
 <template>
  <div class="text-center my-15">
-  <h1 class="text-[#2C2F24] text-[42px] my-15">What Our Customers Say</h1>
+  <h1 class="text-[#2C2F24] text-[55px] font-medium leading-[60.5px] font-serif my-15">What Our Customers Say</h1>
 
   <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-4 w-[90%] m-auto">
     <div v-for="review in reviews" :key="review.title" class="bg-[#F9F9F7] p-5 rounded-2xl">
-      <h1 class="text-[#AD343E] font-bold text-[24px]">{{ review.title }}</h1>
-      <p class="text-[18px] text-[#414536] text-start px-2 py-8">
+      <h1 class="text-[#AD343E] font-bold text-[24px] leading-[30px] tracking-[-3%]">{{ review.title }}</h1>
+      <p class="text-[18px] text-[#414536] text-start px-1 py-8 font-normal leading-[28px]">
        {{ review.review }}
       </p>
 
@@ -16,8 +16,8 @@
           <img :src="review.image" alt="">
         </div>
         <div class="p-3 text-start">
-          <h1 class="font-bold text-[16px]">{{ review.name }}</h1>
-          <h2 class="text-[16px]">{{ review.city }}</h2>
+          <h1 class="font-bold text-[16px] leading-[24px] text-[#2c2f24]">{{ review.name }}</h1>
+          <h2 class="text-[16px] font-normal leading-[24px] text-[#414536]">{{ review.city }}</h2>
         </div>
       </div>
     </div>

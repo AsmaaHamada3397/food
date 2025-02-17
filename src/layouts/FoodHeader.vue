@@ -49,7 +49,7 @@
         <div>
           <a href="" class="flex justify-center items-center mb-3" >
             <img class="inline" src="../assets/images/header/japanese-food.svg" alt="" />
-            <span class="text-4xl font-semibold italic ps-2 pt-2">
+            <span class="text-[42px] font-semibold italic ps-2 pt-2 font-serif text-[#474747] leading-[29.3px] tracking-[-0.4px]">
               Bistro Bliss
             </span>
           </a>

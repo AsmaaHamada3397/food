@@ -1,7 +1,7 @@
 <template>
   <div class="hero">
     <div class="grid place-items-center pt-55">
-      <h1 class=" sm:text-[40px] sm:font-semibold md:text-[96px] w-[50%] text-center leading-none mb-8 text-[#2C2F24]">Best food for your taste</h1>
+      <h1 class=" sm:text-[40px] md:text-[96px] w-[50%] text-center leading-none mb-8 text-[#2C2F24] font-serif">Best food for your taste</h1>
       <p class="sm:text-sm md:text-[20px] md:w-[34%] text-center mb-8 text-[#2C2F24]">Discover delectable cuisine and
         unforgettable moments in our welcoming, culinary haven.
       </p>
